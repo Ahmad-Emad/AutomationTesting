@@ -3,7 +3,6 @@ package stepDefinition;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import Pages.HomePage;
 import Pages.ItemPage;
 import Pages.SearchResults;
@@ -24,6 +23,7 @@ public class search {
     	driver.get("https://www.amazon.com/");
     	driver.manage().window().maximize();
     }	
+	
 	@After
     public void afterScenario(){
     	driver.close();
